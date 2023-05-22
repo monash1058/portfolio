@@ -43,6 +43,10 @@ header{
     margin:0 auto;
 
 }
+.responsive {
+    width: 90%;
+    height: auto;
+  }
 
 @media (min-width: 576px){
     .container{
@@ -98,8 +102,9 @@ header nav .branding{
 .hero{
     padding: 7rem 0;
 }
-.hero .left img{
-    width: 400px;
+.hero .left .responsive{
+    width: 100%;
+    height: auto;
 }
 
 .hero .right{
