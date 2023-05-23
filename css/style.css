@@ -387,6 +387,15 @@ section.services .card-wrapper .card p{
     color: var(--ternary);
     line-height:1.6;
 }
+section.services .card-wrapper .card .btn{
+    padding:0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
 
 section.freelancer{
     text-align: center;
